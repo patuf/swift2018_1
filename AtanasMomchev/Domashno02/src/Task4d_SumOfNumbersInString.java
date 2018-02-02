@@ -13,7 +13,7 @@ public class Task4d_SumOfNumbersInString {
                 for (int j = i + 1; j < sentence.length(); j++) {
                     if (Character.isDigit(sentence.charAt(j))) {
                         num += sentence.charAt(j);
-                    }
+                    }else
                     break;
                 }
                 int n = Integer.parseInt(num);

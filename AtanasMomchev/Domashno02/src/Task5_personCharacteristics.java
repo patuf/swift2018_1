@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task5_personCharacteristics {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("How many haracteristicks will you make? -");
+        System.out.println("How many characteristic's will you make? -");
         int number = input.nextInt();
         while (true){
             if (number<0){
