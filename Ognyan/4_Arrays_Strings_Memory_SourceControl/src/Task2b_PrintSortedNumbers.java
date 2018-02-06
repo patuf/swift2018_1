@@ -17,7 +17,7 @@ public class Task2b_PrintSortedNumbers {
             numbers[i] = in.nextInt();
         }
         Arrays.sort(numbers);
-        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(numbers).replace("[","").replace("]",""));
     }
 }
 
