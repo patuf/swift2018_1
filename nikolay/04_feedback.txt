@@ -1,0 +1,54 @@
+NO NEED TO COMMIT EVERYTHING AT ONCE!
+PUT YOUR NAME FIRST!
+PACKAGE NAMES - get used! Small caps
+
+Тask1b_PrintMatrix
+palindromes
+lettercount
+clustercount
+splitindex
+caesarcipher
+largestnumber: proper init!
+LargestSumOfKSubsequence
+Task3d_BracketMatching - explain general idea
+
+Atanas:
+  - Task2a_PrintLargestNumber: what if the array is only negative numbers?
+  - Comments too explanatory: "If statement to check if ...""
+  - Task2c_PrintClusterCount: sequence "1 1 3 1 1 4" yields only one cluster - should be two
+  - Task2d_PrintSplitIndex: nice and neat!
+  + Task2e_LongestIncreasingSubsequence: comparing string length
+  + Task3a_isPalindrome: comparing the reversed string
+  - Task3b_LetterCount: use the array index as letter address
+  - Task3c_CeasarCipher: instead of long non letter checks: char > 'a' && char < 'z' or isAlphabet
+                         no transforming Z to A and A to Z
+                         code duplicated - only cipher changes
+
+Iva:
+ + Task2f_LargestSumOfKSubsequence - good!
+
+Mariya:
+ - Task3c_CaesarCipher: nice check for whether a char is alphabet, but not converting a to z and z to a
+ + Task3d_BracketMatching: Nice solution to replace brackets, but input.length() == input.length() : wtf?!?
+                           test your code!
+ - Task1c_PrintMatrix: elegant solution, but not exactly as demanded
+ + Task1d_PrintMatrix: very elegant, just change directions!
+
+Ognyan:
+ - Task3a_IsPalindrome: No need to compare the two strings on every iteration.
+ - Task2c_PrintClusterCount: Sequence that finishes in 111 will be counted as two clusters
+                             sum и digit не са говорящи имена на променливи
+
+ Viktor:
+ - Task2a_PrintLargestNumber: not the last element, the largest number
+ - Task2d_PrintSplitIndex: break!
+ - Task3c_CaesarCipher: nice check for whether a char is alphabet, but not converting a to z and z to a
+
+Georgi:
+ -+ Тask1b_PrintMatrix: nice, but count += 4? No magic numbers!
+ + Task1d_PrintMatrix: Bril!
+ + Task2a_PrintLargestNumber: nice init to take first el.
+ +-Task2b_PrintSortedNumbers: nice attempt at bubble sort! Read the theory.
+ + Task2e_LongestIncreasingSubsequence: nice!
+ +-Task3a_IsPalindrome: no need to loop the whole string - just the half
+ +-Task3b_PrintLetterCount: neat but could be neater
