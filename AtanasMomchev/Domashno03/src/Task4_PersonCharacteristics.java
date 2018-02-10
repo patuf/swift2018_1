@@ -14,10 +14,13 @@ public class Task4_PersonCharacteristics {
             }else break;
         }
         input.nextLine();
+        //loop for characters
         for(int i=0; i<number;i++) {
             System.out.println("Input sequence: ");
             String data = input.nextLine();
+            //inputting the string in array
             String [] dataArray = data.split(";");
+            //different data inputs
             String firstName = dataArray[0];
             String lastName = dataArray[1];
             String g = dataArray[2];
@@ -29,12 +32,12 @@ public class Task4_PersonCharacteristics {
             String [] copy = Arrays.copyOfRange(dataArray,7,11);
             double[] marks = new double[4];
             int sum =0;
+            //inputting marks in array
             for(int j=0;j<marks.length;j++){
                 marks[j]= Double.parseDouble(copy[j]);
                 sum += marks[j];
             }
             double average = sum / marks.length;
-            //creating int for the current yeaer
             int currentYera = 2018;
             //calculating how old is the person
             int age = currentYera - birthYear;

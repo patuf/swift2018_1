@@ -24,12 +24,14 @@ public class Task2c_PrintClusterCount {
         //if statement to change end so we don't get error out of bounds
         if(i == arr.length-1) end = arr.length-1;
         //if statement to check if there is a cluster start
-      if(arr[i] == arr[end] && i != arr.length-1){
-          //entering the number of the cluster
-          clusterStart = arr[i];
-          //increasing cluster count by 1
-          clusters++;
-      }
+        if (arr[i] !=arr[end]){
+            clusterStart = arr[i];
+        }else if(arr[i] == arr[end] && i != arr.length-1){
+            //entering the number of the cluster
+            clusterStart = arr[i];
+            //increasing cluster count by 1
+            clusters++;
+        }
     }
         System.out.format("In you array there are %d clusters",clusters);
     }
