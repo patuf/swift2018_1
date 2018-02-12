@@ -1,4 +1,4 @@
-package src.hwk_04;
+package swift2018_1.hristo.hwk_04;
 
 import java.util.Scanner;
 
