@@ -1,26 +1,28 @@
 package CredentialManager;
-
 import java.util.Scanner;
-
-public class MainCredentials {
+public class mainCredentials {
     public static void main(String[] args) {
-        Credentials c = new Credentials();
+        CredentialsManager CM = new CredentialsManager();
         Scanner input = new Scanner(System.in);
-        System.out.println("Input commands now: ");
-        c.fillArrays();
-        int i=0;//used to go to next position in array
-        while (true){
-            //string to keep command
+
+        while (true) {
+            System.out.println("Input commands: ");
             String str = input.next();
-            if(str.equals("END")) break;
-            //check which command is inputed
-            if(str.equals("ENROLL")){
-                c.ENROLL(input.next(),input.next(),i);
-                i++;
-            }else if(str.equals("CHPASS")){
-                c.CHPASS(input.next(),input.next(),input.next());
-            }else if(str.equals("AUTH")) {
-                c.AUTH(input.next(), input.next());
+            str = str.toUpperCase();
+            if (str.equals("END")) break;
+
+            switch (str) {
+                case ("ENROLL"):
+                    System.out.format("ENROLL %s %n", CM.newUser(input.next(), input.next()) ? "success" : "fail");
+                    break;
+                case ("CHPASS"):
+                    System.out.format("CHPASS %s %n", CM.changePass(input.next(), input.next(), input.next()) ? "success" : "fail");
+                    break;
+                case ("AUTH"):
+                    System.out.format("AUTH %s %n", CM.authenticate(input.next(), input.next()) ? "success" : "fail");
+                    break;
+                default:
+                    System.out.println("No such command!!");break;
             }
         }
     }
