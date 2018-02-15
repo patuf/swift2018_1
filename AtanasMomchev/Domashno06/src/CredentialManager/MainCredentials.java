@@ -1,5 +1,6 @@
 package CredentialManager;
 import java.util.Scanner;
+
 public class mainCredentials {
     public static void main(String[] args) {
         CredentialsManager CM = new CredentialsManager();

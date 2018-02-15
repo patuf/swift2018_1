@@ -3,9 +3,8 @@ package CredentialManager;
 public class CredentialsManager {
     private Credentials [] users = new Credentials[200];
     private int userCount = 0;
-    private String [] oldPass = new String[100];
-    private int oldPassCount = 0;
 
+    //method to add a new user
     public boolean newUser(String username, String password){
         if (usernameCheck(username)){
             return false;
@@ -14,29 +13,23 @@ public class CredentialsManager {
         }
         return true;
     }
+    //method to change pass and check if the pass has been used
     public boolean changePass(String user, String pass, String newPass){
-        if(users[indexOf(user)].passwordCheck(pass) && !checkOldpass(newPass) && !pass.equals(newPass)){
-            users[indexOf(user)].setPassword(newPass);
-            oldPass[oldPassCount++] = pass;
+        if(!usernameCheck(user)) return false;
+        if((!users[indexOf(user)].checkOldpass(pass)) && !pass.equals(newPass)){
+            users[indexOf(user)].changePassword(pass,newPass);
+            users[indexOf(user)].setOldPass(pass);
             return true;
         }
         return false;
     }
+    //method to check if user and pass are correct
     public boolean authenticate(String user, String pass){
         if(!usernameCheck(user))return false;
-        if(users[indexOf(user)].getUsername().equals(user) && users[indexOf(user)].passwordCheck(pass)){
-            return true;
-        }
-        return false;
+        return users[indexOf(user)].passwordCheck(pass);
     }
-    public boolean checkOldpass(String pass) {
-        if(oldPassCount == 0) return false;
-        for (int i = 0; i < oldPassCount; i++) {
-            if (oldPass[i].equals(pass))
-                return true;
-        }
-        return true;
-    }
+
+    //geting where in the array is the method with THE username
     public int indexOf(String user){
         for(int i=0;i<userCount;i++){
             if(users[i].getUsername().equals(user)){
@@ -45,6 +38,7 @@ public class CredentialsManager {
         }
         return -1;
     }
+    //check if there is a object with username
     public boolean usernameCheck(String username){
         for(int i=0; i<userCount;i++){
             if(users[i].getUsername().equals(username))
