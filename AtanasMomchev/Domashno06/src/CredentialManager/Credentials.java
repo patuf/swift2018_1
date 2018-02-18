@@ -6,7 +6,7 @@ public class Credentials {
     private String [] oldPass = new String[100];
     private int oldPassCount = 0;
 
-    Credentials(String user, String pass){
+    public Credentials(String user, String pass){
         username = user;
         password = pass;
     }
