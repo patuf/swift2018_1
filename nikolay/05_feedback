@@ -1,0 +1,49 @@
+05 - Too complex logic that tires you.
+06_Calculator: No need to keep instance variables. The state of the calc could be its memory, or last result
+06_Credentials: Credentials is a class that represents a single credential (user + pass)
+
+Anton:
+  05_Person: With empty constructor, age needs to be -1
+  06_Calculator: It is semantically incorrect for Calculator to hold its operands apriori
+Atanas:
+  05_Person: fields/properties start with small letter
+             age, not year.
+  06_Calculator: It is semantically incorrect for Calculator to hold its operands apriori
+  06_Credentials: Consider using switch when examining the command
+                  Credentials is a class that represents a single credential (user + pass)
+Georgi:
+  05_Car: Current year is LocalDate.now().getYear()
+          Category 1 is 0 - 8 years
+          + Good on the else statement
+          insuranceCategory can be reused in tax calculation - we cannot get the two pieces of info separately otherwise.
+Hazel:
+  05_Person: Indents!
+
+Hristo:
+  05_Car: + Nice conditional expressions and switch
+           Methods should either calculate once and use instance properties, or calculate every time and stay transient.
+  05_Person: Undefined name is "No name", not null
+  06_Calculator: No need to keep instance variables.
+                 Assign instance vals to parameters?
+                 instance vars a, b are never used
+  06_Credentials: Credentials is a class that represents a single credential (user + pass)
+
+Iva:
+  05_Credentials: Introduction should be part of the Person behaviour!
+                  Introduction doesn't meet the task description.
+  05_Car: Don't call insuranceCategory so many times - call it once and use it in switch.
+          + Clean conditions, good overall code (except the above)
+  06_Calculator: No need to keep instance variables.
+                 Task is not part of calculator.
+
+Mariya:
+  05_Car: Reuse call to insuranceCategory, instead of taking it as param in taxes. Use the power of OOP.
+
+Racho:
+  05_Person: method names with small case
+             Use good old String, not char. This is not C
+  05_Car: insCat and tax are part of the Car behaviour
+
+Ognyan:
+  05_Person: No John Doe
+  05_Car: Use switch for tax(feeds)
