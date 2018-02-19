@@ -22,8 +22,8 @@ public class ClientDB {
         }
         return result.toArray(new VideoStoreClient[0]);
     }
-    public boolean removeClient(VideoStoreClient client){
-        int idx = findByIdIndex(client.getClientId());
+    public boolean removeClient(String clientId){
+        int idx = findByIdIndex(clientId);
         if(idx == -1){
             return false;
         }else
@@ -36,10 +36,12 @@ public class ClientDB {
         }else
         return true;
     }
+
     public VideoStoreClient findClient(String clientId){
         return db.get(findByIdIndex(clientId));
     }
-        private int findByIdIndex(String id){
+
+    private int findByIdIndex(String id){
         for (int i = 0; i < db.size() ; i++) {
             if(db.get(i).getClientId().equals(id))
                 return i;
