@@ -51,7 +51,7 @@ public class Bank {
         Account accidx = acc[indexOf(user)];
         if(indexOf(user) == -1){
             return false;
-        }else if(accidx.hasAccess(pass) && accidx.getBalance()<amount){
+        }else if(accidx.hasAccess(pass) && accidx.getBalance()>amount){
             accidx.withdraw(amount);
             acc[indexOf(recepient)].deposit(amount);
             return true;
@@ -62,9 +62,15 @@ public class Bank {
     public double getAssets() {
         return assets;
     }
+    public void endOfProgramme(){
+        for(int i=0; i<accCount;i++){
+            System.out.print(acc[i].getName() + ", ");
+            System.out.print(acc[i].getGovld() + ", ");
+            System.out.println(acc[i].getBalance());
+        }
+    }
 
     private int indexOf(String user){
-
         for(int i=0; i<accCount; i++){
             if(acc[i].getUser().equals(user))
                 return i;
