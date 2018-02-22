@@ -18,6 +18,7 @@ public class VideoStore {
         VSclient = new VideoStoreClient(clientId);
         return client.addClient(VSclient);
     }
+
     public boolean removeVSClient(String clientId){
         if(client.findClient(clientId).getRentedMovies().size() == 0){
             client.removeClient(clientId);
@@ -25,6 +26,7 @@ public class VideoStore {
         }
         return false;
     }
+
     // ne moje li da izpolzvame String ....
     public boolean addVSMovie(String title,
                               String editor,
@@ -41,6 +43,7 @@ public class VideoStore {
        dueDate = dueDate.plusDays(6);
        return dueDate;
     }
+
     public boolean clientRentsMovie(String clientId,String title,LocalDate rentDate){
         VideoStoreMovie found = movie.findByTitle(title);
         if(client.checkClientId(clientId) && found.getAvailableQuantity()>0){
@@ -60,6 +63,7 @@ public class VideoStore {
     public boolean clientReturnsMovie (String clientId, String title) {
         if (client.findClient(clientId).haveMovieBre(title) && movie.findByTitle(title).getAvailableQuantity()<10) {
             client.findClient(clientId).returnTheMovie(title);
+            movie.findByTitle(title).increaseAvailableQuantity();
             return true;
         }
         return false;
