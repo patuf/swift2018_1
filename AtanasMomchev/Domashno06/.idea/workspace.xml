@@ -16,19 +16,13 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BankManagment/Account.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Task3_BankManagment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BankManagment/Task3_BankManagment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="573">
+              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,10 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,6 +110,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,6 +397,34 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/BankManagment/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#568#569#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BankManagment/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#568#569#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BankManagment/Task3_BankManagment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -427,11 +449,11 @@
         <state relative-caret-position="289">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -590,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BankManagment/Task3_BankManagment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BankManagment/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -614,12 +628,20 @@
         <state relative-caret-position="306">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BankManagment/Task3_BankManagment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

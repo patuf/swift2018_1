@@ -1,8 +1,10 @@
 package Shapes;
 
 public class Rectangle extends Shape implements Drawable{
-    protected double x;
-    protected double y;
+    protected int x;
+    protected int y;
+    private int color;
+    private boolean fill;
     private String name = "rectangle";
     protected double a;
     protected double b;
@@ -25,16 +27,36 @@ public class Rectangle extends Shape implements Drawable{
     }
 
     @Override
-    public boolean fill(int a) {
+    public void fill(int a) {
         if(a == 1){
-            return true;
+            fill = true;
         }else
-            return false;
+            fill = false;
     }
 
     @Override
-    public int color(int a) {
-        return a;
+    public boolean isFill() {
+        return fill;
+    }
+
+    @Override
+    public void color(int a) {
+        color = a;
+    }
+
+    @Override
+    public int getColor() {
+        return color;
+    }
+
+    @Override
+    public int getX() {
+        return x;
+    }
+
+    @Override
+    public int getY() {
+        return y;
     }
 
     public void describeMe(){
