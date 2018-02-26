@@ -33,5 +33,7 @@ public class Task3_BankManagment {
                     System.out.println("No such command.");
             }
         }
+        System.out.println(bank.getAssets());
+        bank.endOfProgramme();
     }
 }
