@@ -1,7 +1,7 @@
 package com.swift.academy.homework06.task4;
 
 import java.util.Scanner;
-
+,
 /**
  * To avoid hassle, we just assume names cannot contains spaces, contrary to what is shown in the task definition.
  */

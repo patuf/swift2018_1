@@ -11,8 +11,7 @@ public class Credentials {
     // constructor
 
 
-    // QUESTION how to stop instance when name is null or empty(i didn't wont to make object(not initialize fields)
-    Credentials(String name,String password){
+  public  Credentials(String name,String password){
         this.userName=name;
         this.password=password;
         oldPassword=new String[100];
@@ -33,6 +32,9 @@ public class Credentials {
       //  if actual Password not same whit pass write actual pass not access to change password or two actual password are same whit new password, no reason to change whot self her
         if (!passwordIsMatch(actualPassword)||passwordIsMatch(newPassword))
             return false;
+        if (checkExistPassword(newPassword)<0) {
+            return false;// exist old password
+        }
         // add new password to old password
         return addPassword( newPassword);
     }
