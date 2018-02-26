@@ -27,7 +27,6 @@ public class VideoStore {
         return false;
     }
 
-    // ne moje li da izpolzvame String ....
     public boolean addVSMovie(String title,
                               String editor,
                               String genre,
@@ -44,7 +43,7 @@ public class VideoStore {
        return dueDate;
     }
 
-    public boolean clientRentsMovie(String clientId,String title,LocalDate rentDate){
+    public boolean clientRentsMovie(String clientId,String title){
         VideoStoreMovie found = movie.findByTitle(title);
         if(client.checkClientId(clientId) && found.getAvailableQuantity()>0){
         client.findClient(clientId).rentTheMovie(   found.getTitle(),
@@ -52,7 +51,7 @@ public class VideoStore {
                                                     found.getGenre(),
                                                     found.getImdbRating(),
                                                     found.getReleaseDate(),
-                                                    dueDate(rentDate));
+                                                    dueDate(LocalDate.now()));
         movie.findByTitle(title).decreaseAvailableQuantity();
         income += found.getRentPrice();
             return true;
@@ -65,11 +64,36 @@ public class VideoStore {
             client.findClient(clientId).returnTheMovie(title);
             movie.findByTitle(title).increaseAvailableQuantity();
             return true;
-        }
+        }else
         return false;
     }
 
     public double getIncome() {
         return income;
+    }
+
+    public String findByTitle(String title){
+        if(movie.findByTitle(title) == null){
+            return "No data found";
+        }else
+            return title;
+    }
+    public String findByEditor(String editor){
+        if(movie.findByEditor(editor)[0] == null){
+            return "No data found";
+        }else
+            return movie.findByEditor(editor).toString();
+    }
+    public String findByGenre(String genre){
+        if(movie.findByGenre(genre)[0] == null){
+            return "No data found";
+        }else
+            return movie.findByEditor(genre).toString();
+    }
+    public String findByRating(double rating){
+        if(movie.findByRating(rating)[0] == null){
+            return "No data found";
+        }else
+            return movie.findByRating(rating).toString();
     }
 }

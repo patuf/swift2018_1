@@ -3,7 +3,9 @@ package Shapes;
 public class Circle extends Shape implements Drawable{
     private int x;
     private int y;
+    private int color;
     private String name = "Circle";
+    private boolean fill;
     double r ;
     double p = Math.PI;
     Circle(double r){
@@ -13,9 +15,6 @@ public class Circle extends Shape implements Drawable{
     public String getName(){
         return name;
     }
-    public void describeMe(){
-        System.out.format("The %s, has a perimeter of %.2f and area of %.2f",getName(),perimeter,area);
-    }
 
     @Override
     public void setCoordinates(int x, int y) {
@@ -24,16 +23,35 @@ public class Circle extends Shape implements Drawable{
     }
 
     @Override
-    public boolean fill(int a) {
+    public void fill(int a) {
         if(a == 1){
-            return true;
+            fill = true;
         }else
-        return false;
+        fill = false;
+    }
+
+    public boolean isFill() {
+        return fill;
     }
 
     @Override
-    public int color(int a) {
-        return a;
+    public int getX() {
+        return x;
+    }
+
+    @Override
+    public int getY() {
+        return y;
+    }
+
+    @Override
+    public void color(int a) {
+        color = a;
+    }
+
+    @Override
+    public int getColor() {
+        return color;
     }
 
     public double getPerimeter() {
