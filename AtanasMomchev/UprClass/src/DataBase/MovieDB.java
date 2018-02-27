@@ -15,7 +15,7 @@ public class MovieDB {
         db.add(movie);
         return true;
     }
-    public boolean removeMvie(String title){
+    public boolean removeMovie(String title){
         int idx = findByTitleIdx(title);
         if(idx > -1) {
             db.remove(idx);
