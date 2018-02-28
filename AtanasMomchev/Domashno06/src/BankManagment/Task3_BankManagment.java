@@ -12,6 +12,7 @@ public class Task3_BankManagment {
             System.out.println("Input commands: ");
             String str = input.next();
             str = str.toUpperCase();
+
             switch (str){
                 case ("END"): bank.getAssets(); break endLable;
                 case ("OPEN"):
