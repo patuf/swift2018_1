@@ -22,6 +22,7 @@ public class TaskExc {
                 hasExc = true;
                 sc.nextLine();
             } catch (RangeException exc) {
+				exc.printStackTrace();
                 throw new RangeException("Your number should be greater 0 and less or equal to 10!");
             }
         } while (hasExc);
