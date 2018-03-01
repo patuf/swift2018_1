@@ -1,6 +1,6 @@
-package hmw07;
+package hmw07.shapeexersicelesson.exercise1_shape;
 
-public class Square extends Rectangle {
+ class Square extends Rectangle {
 
 
 

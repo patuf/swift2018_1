@@ -1,6 +1,6 @@
-package hmw07;
+package hmw07.shapeexersicelesson.exercise1_shape;
 
-public class Circle extends Shape {
+ class Circle extends Shape {
     private final static double PI = 3.141592654;
     private double r;
 

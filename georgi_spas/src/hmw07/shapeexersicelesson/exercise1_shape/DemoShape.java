@@ -1,6 +1,6 @@
-package hmw07;
+package hmw07.shapeexersicelesson.exercise1_shape;
 
-public class DemoShape {
+ class DemoShape {
     public static void main(String[] args) {
         Circle circle = new Circle(3);
         Rectangle rectangle_1 = new Rectangle(1, 2);

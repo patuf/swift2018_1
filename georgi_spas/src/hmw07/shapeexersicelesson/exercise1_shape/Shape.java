@@ -1,7 +1,7 @@
-package hmw07;
+package hmw07.shapeexersicelesson.exercise1_shape;
+ class Shape {
 
-public class Shape {
-    String nameShape;
+
 
     // to calculate perimetar
     public double getPerimeter() {

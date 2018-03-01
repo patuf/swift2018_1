@@ -9,7 +9,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 
-public class DateByMonthOrderer implements Comparator<LocalDate> {
+public class
+DateByMonthOrderer implements Comparator<LocalDate> {
 
     @Override
     public int compare(LocalDate data1, LocalDate data2) {
