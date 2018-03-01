@@ -1,8 +1,8 @@
-package src.database;
+package swift2018_1.hristo.hwk_07.VideoStore.database;
 import java.time.LocalDate;
 
 
-import src.model.VideoStoreMovie;
+import swift2018_1.hristo.hwk_07.VideoStore.model.VideoStoreMovie;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
