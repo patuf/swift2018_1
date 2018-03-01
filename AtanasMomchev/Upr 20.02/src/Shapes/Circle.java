@@ -13,9 +13,6 @@ public class Circle extends Shape{
     public String getName(){
         return name;
     }
-    public void describeMe(){
-        System.out.format("The %s, has a perimeter of %.2f and area of %.2f %n",getName(),getPerimeter(),getArea());
-    }
     public double getPerimeter() {
         return perimeter = p*r;
     }

@@ -1,23 +1,23 @@
 package Shapes;
 
    public abstract class Shape implements Drawable{
-       protected int x;
-       protected int y;
-       protected int f;
-       protected int c;
+       private int x;
+       private int y;
+       private int fill;
+       private int color;
        protected double perimeter;
-       protected double area;
+       protected double area ;
        abstract String getName();
 
        Shape(int x, int y,int fill, int color){
            this.x = x;
            this.y = y;
-           f = fill;
-           c = color;
+           this.fill = fill;
+           this.color = color;
        }
 
        public void describeMe(){
-           System.out.format("The %s, has a perimeter of %.2f and area of %.2f %n",getName(),perimeter,area);
+           System.out.format("The %s, has a perimeter of %.2f and area of %.2f %n",getName(),getPerimeter(),getArea());
        }
 
        @Override
@@ -28,12 +28,12 @@ package Shapes;
 
        @Override
        public int getFill(){
-        return f;
+        return fill;
        }
 
        @Override
        public int getColor(){
-        return c;
+        return color;
        }
 
        public double getPerimeter() {
@@ -43,4 +43,5 @@ package Shapes;
        public double getArea() {
            return area;
        }
+
    }

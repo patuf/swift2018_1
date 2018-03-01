@@ -20,10 +20,6 @@ public class Rectangle extends Shape{
         return area = a*b;
     }
 
-    public void describeMe(){
-        System.out.format("The %s, has a perimeter of %.2f and area of %.2f %n",getName(),getPerimeter(),getArea());
-    }
-
     @Override
     public String getName() {
         return name;
