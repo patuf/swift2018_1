@@ -6,24 +6,54 @@ public class Picture {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Picture p = new Picture();
-        Drawable[] drawables = new Drawable[]{new Circle(2),new Square(5),new Rectangle(3,6)};
+        System.out.println("Input figures for the picture");
+        end:
+    while (true){
+        String str = input.next();
+        str = str.toLowerCase();
 
-        for (int i=0;i<drawables.length;i++){
-            System.out.println("Input parameters for figure coordinate x and y, int for color, 1 for fill 0 for not");
-            p.setParameters(drawables[i],input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt());
-            p.drawPicture(drawables[i]);
+        switch (str){
+            case ("end"):break end;
+            case ("circle"):
+                p.addCircle(input.nextDouble(),input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt());
+                break;
+            case ("rectangle"):
+                p.addRectangle(input.nextDouble(),input.nextDouble(),input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt());
+                break;
+            case ("square"):
+                p.addSquare(input.nextDouble(),input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt());
+                break;
+                default:
+                    System.out.println("No such figure");
         }
     }
-    public void setParameters(Drawable figure, int x, int y, int color,int fill){
-    figure.setCoordinates(x,y);
-    figure.color(color);
-    figure.fill(fill);
+            p.drawPicture();
     }
-    public void drawPicture(Drawable figure){
-        System.out.print("x = " + figure.getX() + " ");
-        System.out.print("y = " + figure.getY() + " ");
-        System.out.print("the color is " + figure.getColor() + " ");
-        System.out.print("fill? " + figure.isFill());
-        System.out.println();
+
+    Shape[] d = new Shape[100];
+    int dCounter = 0;
+    public void addCircle(double r, int x, int y, int fill, int color){
+        d[dCounter++] = new Circle(r,x,y,fill,color);
+    }
+
+    public void addRectangle(double a, double b, int x, int y, int fill, int color){
+        d[dCounter++] = new Rectangle(a,b,x,y,fill,color);
+    }
+
+    public void addSquare(double a, int x, int y, int fill, int color){
+        d[dCounter++] = new Square(a,x,y,fill,color);
+    }
+
+    public void drawPicture(){
+        if(dCounter ==0) return;
+        for(int i=0;i<dCounter;i++) {
+            d[i].describeMe();
+            System.out.printf("The coordinates are %d and %d, the circle is %d, with color %d %n",
+                    d[i].getX(),d[i].getY(),d[i].getFill(),d[i].getColor());
+        }
+    }
+
+    public int getdCounter() {
+        return dCounter;
     }
 }

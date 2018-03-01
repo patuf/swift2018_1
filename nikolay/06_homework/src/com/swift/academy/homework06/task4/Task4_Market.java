@@ -107,7 +107,7 @@ public class Task4_Market {
             return false;
 
         // Think about what would happen if Product was mutable!
-        return buyers[personIdx].buy(products[productIdx]);
+        return buyers[person[Idx].buy(products[productIdx]);
     }
 
     /**
