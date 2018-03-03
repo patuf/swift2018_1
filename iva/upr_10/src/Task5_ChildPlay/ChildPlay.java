@@ -5,7 +5,6 @@ import java.util.*;
 public class ChildPlay {
 
     private static Integer playIteration(List<Integer> kids){
-        Scanner sc = new Scanner(System.in);
 
         List<Integer> tempArr = new ArrayList<>();
         int counter = 0;
