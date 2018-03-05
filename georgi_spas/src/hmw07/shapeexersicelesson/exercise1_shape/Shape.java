@@ -1,5 +1,5 @@
 package hmw07.shapeexersicelesson.exercise1_shape;
- class Shape {
+  class  Shape  {
 
 
 
@@ -14,4 +14,5 @@ package hmw07.shapeexersicelesson.exercise1_shape;
         return 0;
     }
 
-}
+
+ }

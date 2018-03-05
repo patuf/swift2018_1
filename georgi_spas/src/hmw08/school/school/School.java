@@ -1,4 +1,4 @@
-package hmw08.school;
+package hmw08.school.school;
 
 public class School implements NameAble {
     private final String name;
