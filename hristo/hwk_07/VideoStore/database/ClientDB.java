@@ -1,6 +1,6 @@
-package src.database;
+package swift2018_1.hristo.hwk_07.VideoStore.database;
 
-import src.model.VideoStoreClient;
+import swift2018_1.hristo.hwk_07.VideoStore.model.VideoStoreClient;
 
 import java.util.ArrayList;
 import java.util.List;

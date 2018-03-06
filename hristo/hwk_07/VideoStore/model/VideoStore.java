@@ -1,6 +1,6 @@
-package src.model;
+package swift2018_1.hristo.hwk_07.VideoStore.model;
 
-import src.database.ClientDB;
+import swift2018_1.hristo.hwk_07.VideoStore.database.ClientDB;
 
 public class VideoStore {
 
