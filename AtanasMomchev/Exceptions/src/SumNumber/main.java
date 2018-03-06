@@ -3,7 +3,7 @@ package SumNumber;
 import java.util.Scanner;
 
 public class main {
-    public static void main(String[] args) throws MyException{
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Method m = new Method();
         System.out.println("Input numbers: ");

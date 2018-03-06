@@ -8,7 +8,7 @@ public class CountryTour {
         int counter;
         int keySum = 0;
         int valueSum = 0;
-        LinkedHashMap<Integer,Integer> cities = new LinkedHashMap<>();
+        Map<Integer,Integer> cities = new LinkedHashMap<Integer, Integer>();
         System.out.println("How many cities: ");
         counter = input.nextInt();
         System.out.println("Input cities now: ");
@@ -22,7 +22,10 @@ public class CountryTour {
         if(keySum > valueSum) {
             System.out.println("NO");
         }else {
-
+            valueSum = 0;
+            for(Map.Entry<Integer,Integer> pair: cities.entrySet()){
+                valueSum += pair.getValue();
+            }
         }
     }
 }
