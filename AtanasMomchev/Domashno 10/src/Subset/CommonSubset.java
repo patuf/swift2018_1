@@ -14,10 +14,13 @@ public class CommonSubset {
         HashSet<Integer> commonNumbers = new HashSet<Integer>();
         int counterOne;
         int counterTwo;
+
         System.out.println("How many numbers will you use for row one and two");
         counterOne = input.nextInt();
         counterTwo = input.nextInt();
+
         System.out.println("Input firstRow: ");
+
         for (int i=0;i<counterOne;i++){
             firstRow.add(input.nextInt());
         }

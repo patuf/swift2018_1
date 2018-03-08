@@ -1,7 +1,7 @@
 package StackMax;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.EnumMap;
 import java.util.List;
 
 public class Stek {
@@ -21,7 +21,6 @@ public class Stek {
         }
         return maxNumber;
     }
-
     public List<Integer> getStack() {
         return stack;
     }
