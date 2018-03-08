@@ -1,4 +1,4 @@
-package src.model;
+package swift2018_1.hristo.hwk_07.VideoStore.model;
 
 import java.time.LocalDate;
 

@@ -17,6 +17,9 @@
     <SUITE FILE_PATH="coverage/georgi_spas$demoBank.coverage" NAME="demoBank Coverage Results" MODIFIED="1519398482988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hmw06_objectsdebuging.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/georgi_spas$Task5_ChildPlay.coverage" NAME="Task5_ChildPlay Coverage Results" MODIFIED="1520275991740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hmw10.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf />
@@ -25,9 +28,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>or</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\SwiftAcademy\swift2018_1\georgi_spas\src\hmw10</dir>
+    </dirStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -37,54 +49,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task03bankamanagment/Account.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task03bankamanagment/Task2_CredentialsManager.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task03bankamanagment/Credentials.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task03bankamanagment/Bank.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/Task1_CalculatorClient.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/pc/Task2_CredentialsManager.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/pc/crm.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/pc/c.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/CredentialManager.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/Credentials.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task1calculator/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task1calculator/Task1_CalculatorClient.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task2credential/CredentialManager.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task2credential/Bank.java" />
-        <option value="$PROJECT_DIR$/src/Bank.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/demoBank.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task2credential/Credentials.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/Account.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/BankManagment.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/Bank.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task3bankmanagment/BankManagment.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task4market/Product.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task4market/Person.java" />
-        <option value="$PROJECT_DIR$/src/hmw06_objectsdebuging/task4market/Market.java" />
-        <option value="$PROJECT_DIR$/src/PersonCharacteristics.java" />
-        <option value="$PROJECT_DIR$/src/hmw07/DateOrder.java" />
-        <option value="$PROJECT_DIR$/src/hmw07/DateByMonthOrderer.java" />
-        <option value="$PROJECT_DIR$/src/hmw07/Circle.java" />
-        <option value="$PROJECT_DIR$/src/hmw07/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/hmw07/Square.java" />
-        <option value="$PROJECT_DIR$/src/hmw07/Shape.java" />
-        <option value="$PROJECT_DIR$/src/hmw07/DemoShape.java" />
-        <option value="$PROJECT_DIR$/src/hmw08/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/hmw08/Discipline.java" />
-        <option value="$PROJECT_DIR$/src/hmw08/nameAble.java" />
-        <option value="$PROJECT_DIR$/src/hmw08/NameAble.java" />
-        <option value="$PROJECT_DIR$/src/hmw08/Person.java" />
-        <option value="$PROJECT_DIR$/src/hmw08/Student.java" />
-        <option value="$PROJECT_DIR$/src/hmw08/Class.java" />
-        <option value="$PROJECT_DIR$/src/hmw08/School.java" />
         <option value="$PROJECT_DIR$/src/hmw08/ClassDemo.java" />
         <option value="$PROJECT_DIR$/src/hmw08/school/Person.java" />
         <option value="$PROJECT_DIR$/src/hmw08/school/Discipline.java" />
         <option value="$PROJECT_DIR$/src/hmw08/school/Student.java" />
         <option value="$PROJECT_DIR$/src/hmw08/school/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/DateByMonthOrderer.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/Circle.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Circle.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/DemoShape.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/DemoShape.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Square.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Drawable.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Shape.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Square.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Circle.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Picture.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Inerface.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Neiskam.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Shape.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/Exercise/task2.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/Exercise/InputException.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/Exercise/Exercise1/task1.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/Exercise/task1.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/Exercise/Task2_Person_Exception_Input.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/Exercise/ValidateInput.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/Exercise/Person.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/Exercise/DemoValidateInput.java" />
+        <option value="$PROJECT_DIR$/src/hmw09/Exercise/taskks/Tasko0_NumberNotANumber.java" />
+        <option value="$PROJECT_DIR$/src/hmw09/Exercise/taskks/Task1_SumNumber.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/bank/Person.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/bank/LoanAccount.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/bank/MortgageAccount.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/bank/DepositAccount.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/bank/IndividualCustomer.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/bank/CompanyCustomer.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/bank/DemoBank.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/bank/Client.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/bank/Bank.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/bank/Account.java" />
+        <option value="$PROJECT_DIR$/src/hmw07/orderdatebymonth/DateByMonthOrderer.java" />
+        <option value="$PROJECT_DIR$/src/hmw08/school/school/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/hmw09/Exercise/exerciseownexception/DemoValidateInput.java" />
+        <option value="$PROJECT_DIR$/src/hmw10/Task1_UniqueMembers.java" />
+        <option value="$PROJECT_DIR$/src/hmw10/Task2_commonSubset.java" />
+        <option value="$PROJECT_DIR$/src/hmw10/Task4_CountryTour.java" />
+        <option value="$PROJECT_DIR$/src/hmw10/Task5_ChildPlay.java" />
+        <option value="$PROJECT_DIR$/src/hmw10/Task_6_WordReplacement.java" />
+        <option value="$PROJECT_DIR$/src/hmw10/Task7_StackMax.java" />
+        <option value="$PROJECT_DIR$/src/hmw10/Task7_StackMaxConstantTime.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="952" />
@@ -350,7 +373,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,7 +395,21 @@
               <item name="georgi_spas" type="b2602c69:ProjectViewProjectNode" />
               <item name="georgi_spas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hmw06_objectsdebuging" type="462c0819:PsiDirectoryNode" />
+              <item name="task2credential" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="georgi_spas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="georgi_spas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hmw07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="georgi_spas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="georgi_spas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hmw07" type="462c0819:PsiDirectoryNode" />
+              <item name="orderdatebymonth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="georgi_spas" type="b2602c69:ProjectViewProjectNode" />
@@ -381,13 +417,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="school" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="georgi_spas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="georgi_spas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="georgi_spas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="georgi_spas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hmw10" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,7 +462,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoShape">
+  <component name="RunManager" selected="Application.Task7_StackMaxConstantTime">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -421,14 +470,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="BankManagment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Task4_CountryTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hmw06_objectsdebuging.task3bankmanagment.*" />
+          <option name="PATTERN" value="hmw10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hmw06_objectsdebuging.task3bankmanagment.BankManagment" />
+      <option name="MAIN_CLASS_NAME" value="hmw10.Task4_CountryTour" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -440,14 +489,14 @@
       <module name="georgi_spas" />
       <envs />
     </configuration>
-    <configuration name="CredentialManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Task5_ChildPlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hmw06_objectsdebuging.task2credential.*" />
+          <option name="PATTERN" value="hmw10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hmw06_objectsdebuging.task2credential.CredentialManager" />
+      <option name="MAIN_CLASS_NAME" value="hmw10.Task5_ChildPlay" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -459,14 +508,14 @@
       <module name="georgi_spas" />
       <envs />
     </configuration>
-    <configuration name="DateByMonthOrderer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Task7_StackMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hmw07.*" />
+          <option name="PATTERN" value="hmw10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hmw07.DateByMonthOrderer" />
+      <option name="MAIN_CLASS_NAME" value="hmw10.Task7_StackMax" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -478,14 +527,14 @@
       <module name="georgi_spas" />
       <envs />
     </configuration>
-    <configuration name="DemoShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Task7_StackMaxConstantTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hmw07.*" />
+          <option name="PATTERN" value="hmw10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hmw07.DemoShape" />
+      <option name="MAIN_CLASS_NAME" value="hmw10.Task7_StackMaxConstantTime" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -497,14 +546,14 @@
       <module name="georgi_spas" />
       <envs />
     </configuration>
-    <configuration name="Market" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Task_6_WordReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hmw06_objectsdebuging.task4market.*" />
+          <option name="PATTERN" value="hmw10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hmw06_objectsdebuging.task4market.Market" />
+      <option name="MAIN_CLASS_NAME" value="hmw10.Task_6_WordReplacement" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -591,19 +640,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CredentialManager" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BankManagment" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Market" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DateByMonthOrderer" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DemoShape" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Task4_CountryTour" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Task5_ChildPlay" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Task_6_WordReplacement" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Task7_StackMax" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Task7_StackMaxConstantTime" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DemoShape" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DateByMonthOrderer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Market" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BankManagment" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CredentialManager" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Task7_StackMaxConstantTime" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Task7_StackMax" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Task_6_WordReplacement" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Task5_ChildPlay" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Task4_CountryTour" />
       </list>
     </recent_temporary>
   </component>
@@ -637,30 +686,30 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31042382" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2691867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.025555555" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26689577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18777777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31844217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3171008" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -700,8 +749,80 @@
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/DemoShape.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Picture.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Picture.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw09/Exercise/taskks/Task1_SumNumber.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw08/school/bank/DemoBank.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw10/Task1_UniqueMembers.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw10/Task4_CountryTour.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw10/Task_6_WordReplacement.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw10/Task7_StackMax.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw10/Task7_StackMax.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hmw10/Task7_StackMaxConstantTime.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/hmw08/school/bank/Account.java</url>
+          <line>4</line>
+          <properties field="iban" class="hmw08.school.bank.Account" />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="59" />
+      <option name="time" value="107" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -710,308 +831,369 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Circle.java" />
-    <entry file="file://$PROJECT_DIR$/src/Rectangle.java" />
-    <entry file="file://$PROJECT_DIR$/src/Square.java" />
-    <entry file="file://$PROJECT_DIR$/src/oop/hwk06classesobjectmethods/calculatorclient/Task1_CalculatorClien.class" />
-    <entry file="file://$PROJECT_DIR$/src/oop/hwk06classesobjectmethods/calculatorclient/Calculator.class" />
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/CalculatorClient/Calculator.java" />
-    <entry file="file://$PROJECT_DIR$/hwk06classesobjectmethods/calculatorclient/Task1_CalculatorClien.class" />
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/calculator/Calculator.java" />
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/calculator/Task1_CalculatorClient.java" />
-    <entry file="file://$PROJECT_DIR$/hwk06classesobjectmethods/calculatorclient/task2credentialsmanager/Credentials.class" />
-    <entry file="file://$PROJECT_DIR$/src/CredentialsManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task03bankamanagment/Task2_CredentialsManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task03bankamanagment/Account.java" />
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task03bankamanagment/Credentials.java" />
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task03bankamanagment/Bank.java" />
-    <entry file="file://$PROJECT_DIR$/Malka nasoka.txt">
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/DemoShape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/pc/Task2_CredentialsManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/pc/c.java" />
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/pc/crm.java" />
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task1calculator/Task1_CalculatorClient.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Picture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="273">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/jre/lib/rt.jar!/com/sun/org/apache/xalan/internal/xsltc/compiler/util/CompareGenerator.class">
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="549">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task1calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mariya/6_OOPPrinciples_Debugging/src/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task2credential/Credentials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task2credential/CredentialManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/georgi_spas.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task3bankmanagment/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task3bankmanagment/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="147" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task3bankmanagment/BankManagment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task4market/Market.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="252" column="18" lean-forward="true" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task4market/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw06_objectsdebuging/task4market/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Drawable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Collections.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exersice2_shape_drawable/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-628">
-          <caret line="5177" column="23" lean-forward="false" selection-start-line="5177" selection-start-column="23" selection-end-line="5177" selection-end-column="23" />
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw07/DateOrder.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/time/LocalDate.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Neiskam.java" />
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Inerface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="1866" column="0" lean-forward="false" selection-start-line="1866" selection-start-column="0" selection-end-line="1866" selection-end-column="0" />
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Comparator.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/DemoShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw07/shapeexersicelesson/exercise1_shape/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersonCharacteristics.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/Exercise/task2.java" />
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/Exercise/InputException.java" />
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/Exercise/Task2_Person_Exception_Input.java" />
+    <entry file="file://$PROJECT_DIR$/src/hmw09/Exercise/taskks/Tasko0_NumberNotANumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="411">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw07/DateByMonthOrderer.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw09/Exercise/taskks/Task1_SumNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw07/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/bank/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/bank/CompanyCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/bank/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1231">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+            <element signature="e#1950#1951#0" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/bank/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/bank/IndividualCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/bank/MortgageAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/bank/LoanAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#237#238#0" expanded="false" />
-            <element signature="e#266#267#0" expanded="false" />
-            <element signature="e#317#318#0" expanded="false" />
-            <element signature="e#350#351#0" expanded="false" />
-            <element signature="e#395#396#0" expanded="false" />
-            <element signature="e#428#429#0" expanded="false" />
-          </folding>
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw07/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/bank/DepositAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state relative-caret-position="105">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/bank/DemoBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw07/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/bank/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#216#217#0" expanded="false" />
-            <element signature="e#248#249#0" expanded="false" />
-            <element signature="e#293#294#0" expanded="false" />
-            <element signature="e#321#322#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="231">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw07/Square.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw07/orderdatebymonth/DateByMonthOrderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding>
-            <element signature="e#79#80#0" expanded="false" />
-            <element signature="e#105#106#0" expanded="false" />
-            <element signature="e#155#156#0" expanded="false" />
-            <element signature="e#183#184#0" expanded="false" />
-            <element signature="e#228#229#0" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw07/DemoShape.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/school/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw08/school/ClassDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/school/ClassDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw08/school/NameAble.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/school/Discipline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/school/NameAble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw08/school/Teacher.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/school/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw08/school/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/school/School.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw08/school/Discipline.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/school/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw08/school/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw08/school/school/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw09/Exercise/exerciseownexception/ValidateInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw09/Exercise/exerciseownexception/DemoValidateInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw09/Exercise/exerciseownexception/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw09/Exercise/exerciseownexception/task1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw10/Task1_UniqueMembers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw08/school/Class.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw10/Task2_commonSubset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="475">
+          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw10/Task4_CountryTour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hmw08/school/School.java">
+    <entry file="file://$PROJECT_DIR$/src/hmw10/Task5_ChildPlay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="213">
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="474" column="13" lean-forward="false" selection-start-line="474" selection-start-column="13" selection-end-line="474" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw10/Task_6_WordReplacement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="44" column="39" lean-forward="false" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
           <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="66" column="18" lean-forward="false" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw10/Task7_StackMaxConstantTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="43" column="50" lean-forward="false" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hmw10/Task7_StackMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,11 @@
++ Usage of interface for named
+
+Adib:
+  Shapes: no need to override the describeMe every time.
+          Square: no need to override area and perimeter from rectangle
+          nice default handling
+Atanas:
+  Shapes: drawPicture needs to incude the shape name as well
+Iva:
+  Shapes: picture is supposed to hold a collection of shapes and add to them, then a draw method would draw all of them.
+  Readme is unreadable.
