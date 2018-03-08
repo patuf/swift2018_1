@@ -10,6 +10,8 @@ public class WordReplacement {
         Map<String,String> words = new HashMap<String, String>();
         String str;
         int counter;
+        String result = "";
+        String currentWord = "";
 
         System.out.println("Input a sentence: ");
         str = input.nextLine();
@@ -19,10 +21,19 @@ public class WordReplacement {
         for(int i=0;i<counter;i++){
             words.put(input.next(),input.next());
         }
-        for(Map.Entry<String,String> entry : words.entrySet()){
-            if(str.indexOf(entry.getKey()) == -1) continue;
-           str = str.replace(entry.getKey(),entry.getValue());
+
+        for(Character c : str.toCharArray()){
+            if('a'<= c && c<='z') {
+                currentWord += c;
+            }else {
+                if (words.containsKey(currentWord)) {
+                    result += words.get(currentWord) ;
+                } else result += currentWord ;
+
+                result += c;
+                currentWord = "";
+            }
         }
-        System.out.print(str);
+        System.out.print(result);
     }
 }
