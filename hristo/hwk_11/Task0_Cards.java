@@ -8,14 +8,31 @@ public class Task0_Cards {
 
     public enum CardSuit{
 
-        Clubs, Diamonds, Hearts, Spades
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
     }
 
     public enum CardRank{
 
-        Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King, Ace
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Ten,
+        Jack,
+        Queen,
+        King,
+        Ace
     }
 
+    private CardRank rank;
+    private CardSuit suit;
 
     public static void main(String[] args) {
 
@@ -35,8 +52,6 @@ public class Task0_Cards {
 
         System.out.println(suit);
         System.out.print(rank);
-
-
     }
 
 
