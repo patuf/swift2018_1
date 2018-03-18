@@ -1,0 +1,1 @@
+The director is %s and the title is %s and the date is %s%n
