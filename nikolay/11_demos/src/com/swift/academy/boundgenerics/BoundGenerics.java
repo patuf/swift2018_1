@@ -1,4 +1,4 @@
-package com.swift.academy.boundgenerics;
+package generictraining.demoniki.generciclass.bounds;
 
 import java.util.Collections;
 import java.util.Comparator;

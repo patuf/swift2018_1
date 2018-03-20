@@ -15,6 +15,8 @@ public class Task2_commonSubset {
         System.out.println();
         System.out.print("enter size second sequqnece:");
         int m = sc.nextInt();
+
+
             boolean hasCommonItem=false;
         List fSequence = new ArrayList();
         List sSequence = new ArrayList();

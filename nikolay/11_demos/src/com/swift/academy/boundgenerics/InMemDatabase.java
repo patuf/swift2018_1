@@ -1,4 +1,4 @@
-package com.swift.academy.boundgenerics;
+package generictraining.demoniki.generciclass.bounds;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +21,7 @@ public class InMemDatabase<E extends Identifiable> {
      * @param dest
      */
     public void copyToList(List<? super E> dest) {
-        for (E el : elements) {
+         for (E el : elements) {
             dest.add(el);
         }
     }

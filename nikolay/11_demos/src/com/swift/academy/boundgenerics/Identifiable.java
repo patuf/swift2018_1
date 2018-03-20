@@ -1,4 +1,4 @@
-package com.swift.academy.boundgenerics;
+package generictraining.demoniki.generciclass.bounds;
 
 public abstract class Identifiable implements Comparable<Identifiable> {
 

@@ -1,4 +1,4 @@
-package com.swift.academy.boundgenerics;
+package generictraining.demoniki.generciclass.bounds;
 
 public class Movie extends Identifiable {
     private final String name;
