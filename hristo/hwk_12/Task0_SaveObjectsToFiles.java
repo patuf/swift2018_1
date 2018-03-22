@@ -32,6 +32,8 @@ public class Task0_SaveObjectsToFiles {
 
         System.out.println(movie1);
 
+
+
     }
 
 

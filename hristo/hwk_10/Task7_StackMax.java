@@ -15,7 +15,6 @@ public class Task7_StackMax {
 
         boolean end = false;
 
-        int max = 0;
         int count = 0;
 
 
