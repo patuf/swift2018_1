@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="2_PreparedStatements:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/2_PreparedStatements_jar</output-path>
+    <root id="root">
+      <element id="archive" name="2_PreparedStatements.jar">
+        <element id="module-output" name="2_PreparedStatements" />
+      </element>
+      <element id="library" level="project" name="mysql-connector-java-5.1.46" />
+    </root>
+  </artifact>
+</component>
