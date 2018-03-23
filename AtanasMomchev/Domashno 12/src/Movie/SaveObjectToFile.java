@@ -17,7 +17,10 @@ public class SaveObjectToFile {
             FileInputStream fis = new FileInputStream("D:\\Movie.txt");
             ObjectInputStream ois = new ObjectInputStream(fis);
             Movie movie2 = (Movie) ois.readObject();
-
+            fos.close();
+            oos.close();
+            fis.close();
+            ois.close();
         System.out.println(movie2.getTitle());
     }
 }
