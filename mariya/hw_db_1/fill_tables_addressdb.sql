@@ -1,0 +1,32 @@
+-- INSERT INTO addressdb.countries (countries_id, countries_name)
+-- VALUES (1, 'China');
+-- INSERT INTO addressdb.countries (countries_id, countries_name)
+-- VALUES (2, 'France');
+-- INSERT INTO addressdb.regions (regions_id, regions_name, country_id)
+-- VALUES (1, 'Beijing region', 1);
+-- INSERT INTO addressdb.regions (regions_id, regions_name, country_id)
+-- VALUES (2, 'Shanghai region', 1);
+-- INSERT INTO addressdb.regions (regions_id, regions_name, country_id)
+-- VALUES (3, 'Burgundy region', 2);
+-- INSERT INTO addressdb.regions (regions_id, regions_name, country_id)
+-- VALUES (4, 'Lorraine region', 2);
+-- INSERT INTO addressdb.populated_area_types (populated_area_types_id, populated_area_types_name)
+-- VALUES (1, 'big city');
+-- INSERT INTO addressdb.populated_area_types (populated_area_types_id, populated_area_types_name)
+-- VALUES (2, 'small town');
+-- INSERT INTO addressdb.populated_areas (populated_areas_id, populated_areas_name, type_id, region_id)
+-- VALUES (1, 'Cat city', 1, 1);
+-- INSERT INTO addressdb.populated_areas (populated_areas_id, populated_areas_name, type_id, region_id)
+-- VALUES (2, 'Kitten town', 2, 3);
+-- INSERT INTO addressdb.municipalities (municipalities_id, municipalities_name, postal_code, populated_area_id)
+-- VALUES (1, 'Cats place', 1234, 1);
+-- INSERT INTO addressdb.municipalities (municipalities_id, municipalities_name, postal_code, populated_area_id)
+-- VALUES (2, 'Kittens playground', 5678, 2);
+-- INSERT INTO addressdb.streets (streets_id, streets_name, municipality_id)
+-- VALUES (1, 'Cat street', 1);
+-- INSERT INTO addressdb.streets (streets_id, streets_name, municipality_id)
+-- VALUES (2, 'Kitten street', 2);
+-- INSERT INTO addressdb.addresses (addresses_id, street_id, number, apartmentNo)
+-- VALUES (1, 1, 48, 15);
+INSERT INTO addressdb.addresses (addresses_id, street_id, number, apartmentNo)
+VALUES (2, 2, 65, 27);

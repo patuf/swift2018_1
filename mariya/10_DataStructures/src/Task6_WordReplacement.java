@@ -23,12 +23,7 @@ public class Task6_WordReplacement {
         for (int i = 0; i < split.length; i++) {
             split[i] = split[i].toLowerCase();
         }
-//        for (Map.Entry<String, String> x : names.entrySet()) {
-//            list.add(x.getKey());
-//            list2.add(x.getValue());
-//        }
 
-//        System.out.println(names);
         for (int i = 0; i < split.length; i++) {
             String value = names.get(split[i]);
             if (value != null) {

@@ -15,7 +15,6 @@ public class Task5_ChildPlay {
             input = sc.nextInt();
             list.add(input);
         }
-//        System.out.println(list);
 
         while (true) {
             for (int i = 0; i < list.size() - 1; i++) {
@@ -32,7 +31,6 @@ public class Task5_ChildPlay {
                 System.out.println(counter);
                 return;
             }
-//            System.out.println(positionsList);
 
             for (int k = 0; k < list.size(); k++) {
                 for (int j = 0; j < positionsList.size(); j++) {
@@ -43,7 +41,6 @@ public class Task5_ChildPlay {
             }
 
             counter++;
-//            System.out.println("final list :" + list);
             positionsList.clear();
         }
     }
