@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+
+            var counter = 0;
+            var str = [ " so", " content", " can be added", " dynamically", " on the", " client side."];
+       
+            function sayHi(caller){
+            
+                if(counter < str.length){
+                    caller.innerText += str[counter++];
+                } else {
+					if (counter < str.length + 5) {
+						caller.innerText = "Stop clicking already! Detonating in..." + (str.length + 5 - counter++);
+					} else if (counter < str.length + 6) {
+						caller.innerText = "You know, nothing good will come out of it!"
+						counter++;
+					} else  if (counter < str.length + 7) {
+						caller.innerText = "BOOM! You happy now?";
+						counter++;
+					} else {
+						caller.innerText = "This is a web page with embedded JavaScript";
+						counter = 0;
+					}
+				}
+            }
+        </script>
+    </head>
+    <body>
+        <div id="demo-container" onclick="sayHi(this)">This is a web page with embedded JavaScript</div>
+    </body>
+</html>

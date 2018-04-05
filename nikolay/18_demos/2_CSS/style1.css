@@ -1,0 +1,12 @@
+span{
+	font-style: italic;
+}
+
+.my-class-selector{
+	font-weight: bold;
+}
+
+#my-id-selector{
+	color: red;
+	font-weight: bold;
+}
