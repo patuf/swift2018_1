@@ -2,15 +2,16 @@ package Task3;
 
 import Task2.Credentials;
 
-public class Account extends Credentials
+public class Account
 {
     private final String govId;
     private String userName;
     private double balance;
+    private Credentials credentials;
 
     public Account(String name, String password, String govId, String userName)
     {
-        super(name, password);
+        credentials = new Credentials(name,password);
         this.govId = govId;
         this.userName = userName;
         this.balance = 0;
@@ -44,8 +45,9 @@ public class Account extends Credentials
     }
 
     public boolean hasAccess(String password)
+
     {
-        return super.getPassword(password);
+        return credentials.getPassword(password);
     }
 
 

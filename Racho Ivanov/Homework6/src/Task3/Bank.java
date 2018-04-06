@@ -5,10 +5,18 @@ import java.util.List;
 
 public class Bank
 {
-    public static void main(String[] args)
-    {
-        List<Account> dbAcc= new ArrayList<Account>();
+    private List <Account> dbAcc;
+    private double assets;
 
+    public Bank()
+    {
+        dbAcc = new ArrayList<>();
+    }
+
+    public boolean openAcount(String name, String govId, String username, String passwd)
+    {
 
     }
+
+    private Account findAccount
 }
