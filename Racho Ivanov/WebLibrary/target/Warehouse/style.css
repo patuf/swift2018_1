@@ -1,0 +1,66 @@
+#menu{
+  background-color: lightgray;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  align-self: left;
+  width: 15%;
+  height: 100%
+}
+#page{
+  display: flex;
+}
+.test{
+  width: 85%;
+}
+#console{
+  border-style: solid;
+  border-width: 2px 2px 0px 0px;
+  border-color: black;
+  background-color: red;
+  position: relative;
+  height:6%;
+}
+.changeble{
+  background-color: orange;
+  border-style: solid;
+  border-width: 2px 2px 2px 0px;
+  height: 93%;
+  //padding-bottom: 100%
+  position: relative;
+}
+
+#welcome{
+  text-align: center;
+}
+
+#menu_content{
+display: inline-block;
+margin:5px 20px;
+
+}
+
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: center;
+width: 10em;
+}
+
+li
+{
+
+background-position: 100% .4em;
+padding-right: .1em;
+margin: 3em 0;
+border-bottom: 3px;
+border-style: solid;
+border-color: black;
+cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+}

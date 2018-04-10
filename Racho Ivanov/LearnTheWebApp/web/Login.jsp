@@ -14,9 +14,9 @@
 <h1>Welcome, please login!</h1>
 
 <form action="/login" method="post">
-    Name: <input type = "text" name="Loginname" width="30"/>
-    Password: <input type = "password" width = "10"/>
-    <button type = "button">Log In</button>
+    Name: <input type = "text" name="loginname" width="30"/>
+    Password: <input type = "password" name="password" width = "10"/>
+    <button type = "submit">Log In</button>
 </form>
 </body>
 </html>

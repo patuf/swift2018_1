@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="warehouseDB@localhost" uuid="8eef81ce-4586-479e-8225-f0b5dbd25a4f">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>warehouse</user-name>
+    </data-source>
+  </component>
+</project>

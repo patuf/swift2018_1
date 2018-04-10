@@ -17,10 +17,19 @@
       <version>3.1.0</version>
       <scope>provided</scope>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/javax/javaee-api -->
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-api</artifactId>
+      <version>6.0</version>
+      <scope>provided</scope>
+    </dependency>
+
   </dependencies>
 
   <build>
-    <finalName>ServletExample</finalName>
+    <finalName>Warehouse</finalName>
     <plugins>
 
       <plugin>
