@@ -24,3 +24,7 @@ hs_err_pid*
 # .idea
 desktop.*
 out
+
+/nikolay/19_exercise/TestWebApp/nbproject/private/
+build
+target

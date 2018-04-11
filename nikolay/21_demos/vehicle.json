@@ -1,0 +1,36 @@
+{
+  "model": "Mercedes",
+  "horsePower": 190,
+  "fuelConsumption": 12.5,
+  "engine": {
+    "maxTorque": 315.3
+  },
+  "maintenanceDates": [
+    {
+      "date": {
+        "year": 2014,
+        "month": 4,
+        "day": 10
+      },
+      "time": {
+        "hour": 21,
+        "minute": 18,
+        "second": 55,
+        "nano": 19000000
+      }
+    },
+    {
+      "date": {
+        "year": 2016,
+        "month": 1,
+        "day": 10
+      },
+      "time": {
+        "hour": 21,
+        "minute": 18,
+        "second": 55,
+        "nano": 82000000
+      }
+    }
+  ]
+}

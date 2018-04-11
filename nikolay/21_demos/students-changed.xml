@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><class>
+    <student active="true" rollno="393">
+        <firstname>Peter</firstname>
+        <lastname>Petrov</lastname>
+        <nickname>pesho</nickname>
+        <grade>5</grade>
+        <behaviour>bad</behaviour>
+    </student>
+
+    <student active="true" rollno="493">
+        <firstname>Stoyan</firstname>
+        <lastname>Stoyanov</lastname><nickname>Stoicho</nickname><grade>6</grade><behaviour>bad</behaviour></student>
+
+    <student active="true" rollno="593">
+        <firstname>Stamen</firstname>
+        <lastname>Stamenov</lastname>
+        <nickname>Stamat</nickname>
+        <grade>2</grade>
+    <behaviour>bad</behaviour></student>
+</class>
