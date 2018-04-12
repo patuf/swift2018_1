@@ -1,0 +1,3 @@
+metro jax-ws: https://javaee.github.io/metro-jax-ws/
+
+wsimport.bat -p client -clientjar C:\Users\pato\work\swift\swift2018_1\nikolay\22_demos\1_SOAP_Client\lib\swift.ws.client.jar http://localhost:8080/SOAPDemo/greetme?wsdl

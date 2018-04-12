@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="swift.ws.client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/swift.ws.client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

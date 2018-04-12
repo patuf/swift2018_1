@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="1_REST_Client" />
+        <module name="1_SOAP" />
+        <module name="1_SOAP_Client" />
+        <module name="WebLibrary" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1_REST_Client" target="1.8" />
+      <module name="1_SOAP" target="1.8" />
+      <module name="1_SOAP_Client" target="1.8" />
+      <module name="WebLibrary" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
